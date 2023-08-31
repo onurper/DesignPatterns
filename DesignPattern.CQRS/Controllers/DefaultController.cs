@@ -62,9 +62,9 @@ namespace DesignPattern.CQRS.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateProduct(UpdateProductCommand updateProductCommands)
+        public IActionResult UpdateProduct(UpdateProductCommand command)
         {
-            updateProductCommand.Handle(updateProductCommands);
+            updateProductCommand.Handle(command);
             return RedirectToAction("Index");
         }
     }

@@ -12,17 +12,17 @@ namespace DesignPattern.CQRS.CQRSPattern.Handlers
             _context = context;
         }
 
-        public void Handle(UpdateProductCommand updateProduct)
+        public void Handle(UpdateProductCommand command)
         {
-            var values = _context.Products.Find(updateProduct.Id);
+            var values = _context.Products.Find(command.Id);
             if (values != null)
             {
-                values.ProductId = updateProduct.Id;
-                values.Price = updateProduct.Price;
+                values.ProductId = command.Id;
+                values.Price = command.Price;
                 values.Status = true;
-                values.Name = updateProduct.Name;
-                values.Description = updateProduct.Description;
-                values.Stock = updateProduct.Stock;
+                values.Name = command.Name;
+                values.Description = command.Description;
+                values.Stock = command.Stock;
                 _context.SaveChanges();
             }
         }

@@ -1,5 +1,4 @@
-﻿using DesignPattern.ChainOfResponsibility.ChainOfResponsibility;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace DesignPattern.ChainOfResponsibility.DAL
 {
@@ -10,6 +9,7 @@ namespace DesignPattern.ChainOfResponsibility.DAL
             optionsBuilder.UseSqlServer("server=oper;initial catalog=DesignPattern_1;integrated security=true;");
             base.OnConfiguring(optionsBuilder);
         }
+
         public DbSet<CustomerProcess> CustomerProcesses { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace DesignPattern.TemplateMethod.TemplatePattern
 {
-    public class UltraPlan:NetflixPlans
+    public class UltraPlan : NetflixPlans
     {
         public override string Content(string content)
         {

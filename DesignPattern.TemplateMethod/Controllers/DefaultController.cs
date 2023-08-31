@@ -30,6 +30,7 @@ namespace DesignPattern.TemplateMethod.Controllers
 
             return View();
         }
+
         public IActionResult UltraPlanIndex()
         {
             NetflixPlans netflixPlans = new BasicPlan();

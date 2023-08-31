@@ -1,6 +1,5 @@
 ﻿using DesignPattern.ChainOfResponsibility.DAL;
 using DesignPattern.ChainOfResponsibility.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace DesignPattern.ChainOfResponsibility.ChainOfResponsibility
 {
@@ -36,6 +35,5 @@ namespace DesignPattern.ChainOfResponsibility.ChainOfResponsibility
                 NextApprover.ProcessRequest(req);
             }
         }
-
     }
 }

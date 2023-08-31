@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{225F7947-96EA-4ACA-9705-44A9794952E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{872220AF-9921-4783-9041-9FDB01B99959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod", "DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{872220AF-9921-4783-9041-9FDB01B99959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{66686A57-7097-43BB-B911-B3500E1FC8E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{872220AF-9921-4783-9041-9FDB01B99959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{872220AF-9921-4783-9041-9FDB01B99959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{872220AF-9921-4783-9041-9FDB01B99959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66686A57-7097-43BB-B911-B3500E1FC8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66686A57-7097-43BB-B911-B3500E1FC8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66686A57-7097-43BB-B911-B3500E1FC8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66686A57-7097-43BB-B911-B3500E1FC8E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

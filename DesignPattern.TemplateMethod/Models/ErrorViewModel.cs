@@ -1,5 +1,3 @@
-using System;
-
 namespace DesignPattern.TemplateMethod.Models
 {
     public class ErrorViewModel

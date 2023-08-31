@@ -1,5 +1,3 @@
-using System;
-
 namespace DesignPattern.ChainOfResponsibility.Models
 {
     public class ErrorViewModel

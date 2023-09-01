@@ -1,0 +1,42 @@
+﻿@model DesignPattern.Mediator.MediatorPattern.Results.UpdateProductByIdQueryResult
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+    <div class="container">
+        <br />
+        <br />
+        <label>
+            Ürün Id
+        </label>
+        <input type="text" class="form-control" asp-for="Id" />
+        <br />
+        <label>
+            Ürün Adı
+        </label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <br />
+        <label>
+            Ürün Stok
+        </label>
+        <input type="text" class="form-control" asp-for="Stock" />
+        <br />
+        <label>
+            Ürün Tipi
+        </label>
+        <input type="text" class="form-control" asp-for="Type" />
+        <br />
+        <label>
+            Ürün Fiyat
+        </label>
+        <input type="text" class="form-control" asp-for="Price" />
+        <br />
+        <label>
+            Ürün Kategori
+        </label>
+        <input type="text" class="form-control" asp-for="Category" />
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+</form>

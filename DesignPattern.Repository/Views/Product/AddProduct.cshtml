@@ -1,0 +1,36 @@
+﻿@model DesignPattern.Repository.EntityLayer.Concrete.Product
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <form method="post">
+        <br />
+        <label>Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+
+        <br />
+        <label>Fiyat</label>
+        <input type="text" asp-for="Price" class="form-control" />
+
+        <br />
+        <label>Stok</label>
+        <input type="text" asp-for="Stock" class="form-control" />
+
+        <br />
+        <label>Kategori</label>
+
+        @Html.DropDownListFor(x=>x.CategoryId,(List<SelectListItem>)ViewBag.Category,new {@class="form-control"})
+
+      @*   <select class="form-control" asp-for="Category">
+            @foreach (var item in ViewBag.Category)
+            {
+                <option value="@item.Value">
+                    @item.Text
+                </option>
+            }
+        </select> *@
+
+        <button class="btn btn-dark">Ekle</button>
+    </form>
+</div>

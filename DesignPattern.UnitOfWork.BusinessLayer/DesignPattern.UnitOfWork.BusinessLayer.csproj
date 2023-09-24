@@ -22,8 +22,4 @@
     <ProjectReference Include="..\DesignPattern.UnitOfWork.DataAccessLayer\DesignPattern.UnitOfWork.DataAccessLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>

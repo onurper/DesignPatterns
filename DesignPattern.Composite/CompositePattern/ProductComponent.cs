@@ -11,7 +11,6 @@
             Name = name;
         }
 
-
         public string Display()
         {
             return $"<li class='list-group-item'>{Name}</li>";

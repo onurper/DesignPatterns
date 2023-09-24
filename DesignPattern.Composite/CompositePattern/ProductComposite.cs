@@ -8,6 +8,7 @@ namespace DesignPattern.Composite.CompositePattern
         public string Name { get; set; }
         private List<IComponent> _components;
         public ICollection<IComponent> Components => _components;
+
         public ProductComposite(int id, string name)
         {
             Id = id;
